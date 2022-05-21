@@ -18,6 +18,11 @@
 </head>
 
 <body class="allCaps">
+    <div class="alertContainer">
+        <div class="alert">
+            <strong>The window is resized.It is recomennded to reload the site. 🔔</strong>
+        </div>
+    </div>
     <header>
         <nav>
             <div class="mainLogo cursor filter">
@@ -62,34 +67,47 @@
                     </svg>
                 </a>
             </div>
+            <ul id="visible-list">
 
-            <ul class="nav-list" id="hamburger-menu">
                 <li class="navListItms">
-                    <a href="#" class="link font-roboto">Falcon 9</a>
+                    <a href="#" class="link font-roboto link-animation">Falcon 9</a>
                 </li>
                 <li class="navListItms">
-                    <a href="#" class="link font-roboto">Falcon Heavy</a>
+                    <a href="#" class="link font-roboto link-animation">Falcon Heavy</a>
                 </li>
                 <li class="navListItms">
-                    <a href="#" class="link font-roboto">Dragon</a>
+                    <a href="#" class="link font-roboto link-animation">Dragon</a>
                 </li>
                 <li class="navListItms">
-                    <a href="#" class="link font-roboto">starship</a>
+                    <a href="#" class="link font-roboto link-animation">starship</a>
                 </li>
                 <li class="navListItms">
-                    <a href="#" class="link font-roboto">human spaceflight</a>
+                    <a href="#" class="link font-roboto link-animation">human spaceflight</a>
                 </li>
                 <li class="navListItms">
-                    <a href="#" class="link font-roboto">rideshare</a>
+                    <a href="#" class="link font-roboto link-animation">rideshare</a>
                 </li>
                 <li class="navListItms">
-                    <a href="#" class="link font-roboto">starlink</a>
-                </li>
-                <li class="navListItms">
-                    <a href="#" class="link font-roboto">shop</a>
+                    <a href="#" class="link font-roboto link-animation">starlink</a>
                 </li>
             </ul>
-
+            <ul id="hidden-list">
+                <li class="navListItms">
+                    <a href="#" class="link font-roboto link-animation">mission</a>
+                </li>
+                <li class="navListItms">
+                    <a href="#" class="link font-roboto link-animation">launches</a>
+                </li>
+                <li class="navListItms">
+                    <a href="#" class="link font-roboto link-animation">careers</a>
+                </li>
+                <li class="navListItms">
+                    <a href="#" class="link font-roboto link-animation">updates</a>
+                </li>
+                <li class="navListItms">
+                    <a href="#" class="link font-roboto link-animation">shop</a>
+                </li>
+            </ul>
             <div class="hamburger-trigger cursor filter" id="hamburger-trigger">
                 <img src="/media/list.svg" alt="hamburger-trigger">
             </div>
@@ -99,54 +117,60 @@
         <div class="content font-roboto ">
             <span>completed mission</span>
             <h3 class="heading-primary">crew-3 returns to earth</h3>
-            <div class="primary-links-div font-roboto">
-                <a href="#" class="link">rewatch</a>
+            <div class="primary-links-div font-roboto animation-fill-white">
+                <a href="#" class="link primary-links">rewatch</a>
             </div>
         </div>
+
     </section>
     <section class="section2 sections">
         <div class="content font-roboto ">
             <span>current mission</span>
             <h3 class="heading-primary">crew-4 mission</h3>
-            <div class="primary-links-div font-roboto">
-                <a href="#" class="link">rewatch</a>
+            <div class="primary-links-div font-roboto animation-fill-white">
+                <a href="#" class="link primary-links">rewatch</a>
             </div>
         </div>
+
     </section>
     <section class="section3 sections">
         <div class="content font-roboto ">
             <span>completed mission</span>
             <h3 class="heading-primary">ax-1 mission</h3>
-            <div class="primary-links-div font-roboto">
-                <a href="#" class="link">rewatch</a>
+            <div class="primary-links-div font-roboto animation-fill-white">
+                <a href="#" class="link primary-links">rewatch</a>
             </div>
         </div>
+
     </section>
     <section class="section4 sections">
         <div class="content font-roboto ">
             <span>recent launch</span>
             <h3 class="heading-primary">starlink mission</h3>
-            <div class="primary-links-div font-roboto">
-                <a href="#" class="link">rewatch</a>
+            <div class="primary-links-div font-roboto animation-fill-white">
+                <a href="#" class="link primary-links">rewatch</a>
             </div>
         </div>
+
     </section>
     <section class="section5 sections">
         <div class="content font-roboto ">
             <h3 class="heading-primary">starship update</h3>
-            <div class="primary-links-div font-roboto">
-                <a href="#" class="link">learn more</a>
+            <div class="primary-links-div font-roboto animation-fill-white">
+                <a href="#" class="link primary-links">learn more</a>
             </div>
         </div>
+
     </section>
     <section class="section6 sections">
         <div class="content font-roboto ">
             <span>recent launch</span>
             <h3 class="heading-primary">starship to land nasa astronauts on the moon</h3>
-            <div class="primary-links-div font-roboto">
-                <a href="#" class="link">learn more</a>
+            <div class="primary-links-div font-roboto animation-fill-white">
+                <a href="#" class="link primary-links">learn more</a>
             </div>
         </div>
+
     </section>
     <footer class="font-roboto">
         <div class="footer-links allCaps">
@@ -163,6 +187,7 @@
         </div>
     </footer>
 </body>
+<script src="/js/responsive.js"></script>
 <script src="/js/navbar.js"></script>
 
 </html>

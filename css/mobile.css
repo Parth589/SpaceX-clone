@@ -5,8 +5,7 @@
         justify-self: center;
     }
 
-    .nav-list {
-        /* display: none; */
+    #hidden-list {
         top: 49px;
     }
 

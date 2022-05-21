@@ -1,0 +1,65 @@
+@media screen and (min-width:1150px) {
+    nav {
+        display: grid;
+        /* justify-content: space-around;
+        align-items: center;
+        flex: 0 0; */
+        margin-top: 30px;
+        grid-template-areas: ". logo trigger";
+    }
+
+    #visible-list {
+        display: flex;
+        align-items: center;
+    }
+
+    #hidden-list {
+        display: flex;
+        flex-direction: column;
+        /* padding: 100px 30px; */
+        box-sizing: border-box;
+    }
+
+    .mainLogo {
+        width: 210px;
+    }
+
+    /* Element | http://127.0.0.1:5500/index.html */
+
+    .mainLogo {
+        grid-area: logo;
+    }
+
+    /* Element | http://127.0.0.1:5500/index.html */
+
+    #visible-list {
+        grid-area: list;
+    }
+
+    /* Element | http://127.0.0.1:5500/index.html */
+
+    #hamburger-trigger {
+        grid-area: trigger;
+        justify-self: end;
+        margin-right: 30px;
+    }
+
+    /* desktop.css | http://127.0.0.1:5500/css/desktop.css */
+
+    nav {
+        /* grid-template-areas: ". logo trigger"; */
+        grid-template-areas: ". logo list trigger";
+        grid-template-columns: auto 300px auto auto;
+    }
+
+    .sections {
+        padding: 5vw 15vw;
+        box-sizing: border-box;
+    }
+
+    .heading-primary {
+        max-width: 500px;
+        line-height: 1;
+        font-size: 3.3rem;
+    }
+}

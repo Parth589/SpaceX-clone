@@ -18,6 +18,30 @@
     }
 }
 
+@keyframes desk-menu-open {
+    from {
+        width: 0;
+        padding: 0;
+    }
+
+    to {
+        width: 390px;
+        padding: 100px 30px;
+    }
+}
+
+@keyframes desk-menu-close {
+    from {
+        width: 390px;
+        padding: 100px 30px;
+    }
+
+    to {
+        width: 0;
+        padding: 0;
+    }
+}
+
 @keyframes fade {
     from {
         visibility: visible;
@@ -35,5 +59,40 @@
 
     to {
         visibility: visible;
+    }
+}
+
+@keyframes underline {
+    from {
+        border-top: 5px solid red;
+    }
+
+    to {
+        border-top: 5px dashed red;
+    }
+}
+
+@keyframes fill-white {
+    from {
+        background-color: transparent;
+    }
+
+    to {
+        background-color: white;
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(100%);
+
+    }
+
+    100% {
+        transform: translateY(0%);
     }
 }

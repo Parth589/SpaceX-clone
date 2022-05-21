@@ -39,3 +39,24 @@ ul {
 .text-align {
     text-align: center;
 }
+
+.link-animation:hover {
+    border-top: 3px solid white;
+}
+
+.animation-fill-white :hover {
+    background: white;
+}
+
+/* 
+*       UNWANTED CLASES       *
+.animation-up-down {
+    animation: up-down 2s ease-in-out 2;
+}
+
+.put-center-down {
+    position: relative;
+    bottom: 30px;
+    left: 50%;
+    right: 10px;
+} */
