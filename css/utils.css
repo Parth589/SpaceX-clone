@@ -10,8 +10,8 @@ ul {
 
 /* theming */
 ::selection {
-    background-color: white;
-    color: black;
+    background-color: transparent;
+    color: rgb(114, 95, 95);
 }
 
 /* utility classes */
@@ -41,7 +41,23 @@ ul {
 }
 
 .link-animation:hover {
-    border-top: 3px solid white;
+    animation: left-right-width 1s 1;
+    transform-origin: right;
+}
+
+.link-animation::after {
+    position: relative;
+    height: 5px;
+    width: 0;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: 2;
+    background-color: white;
+    animation: inherit;
+    /* animation: left-right-width 1s infinite both; */
+    /* opacity: 0.3; */
+    display: block;
 }
 
 .animation-fill-white :hover {

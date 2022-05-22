@@ -80,12 +80,12 @@
 }
 
 @keyframes fill-white {
-    from {
+    0% {
         background-color: transparent;
     }
 
-    to {
-        background-color: white;
+    100% {
+        background-color: rgb(255, 255, 255);
     }
 }
 
@@ -101,5 +101,31 @@
 
     100% {
         transform: translateY(0%);
+    }
+}
+
+@keyframes left-right-width {
+    0% {
+        /* transform: translateX(0%); */
+        width: 0%;
+    }
+
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0%;
+        /* transform: translateX(100%); */
+    }
+}
+
+@keyframes left-right-transform {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(100%);
     }
 }

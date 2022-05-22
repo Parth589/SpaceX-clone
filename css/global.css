@@ -111,7 +111,7 @@ nav {
 }
 
 .primary-links-div :hover {
-    background: white;
+    animation: fill-white 2s 1;
     color: black;
 }
 
