@@ -1,4 +1,4 @@
-@media screen and (max-width:600px) {
+@media screen and (max-width:1150px) {
     .mainLogo {
         width: 170px;
         grid-area: logo;

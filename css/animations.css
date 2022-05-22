@@ -1,16 +1,23 @@
+:root {
+    --desktop-menu-width: 390px;
+    --mobile-menu-width: 50vw;
+    --desktop-menu-padding-Y: 100px;
+    --desktop-menu-padding-X: 30px;
+}
+
 @keyframes menu-open {
     from {
         width: 0;
     }
 
     to {
-        width: 60vw;
+        width: var(--mobile-menu-width);
     }
 }
 
 @keyframes menu-close {
     from {
-        width: 60vw;
+        width: var(--mobile-menu-width);
     }
 
     to {
@@ -21,24 +28,24 @@
 @keyframes desk-menu-open {
     from {
         width: 0;
-        padding: 0;
+        padding: var(--desktop-menu-padding-Y) 0;
     }
 
     to {
-        width: 390px;
-        padding: 100px 30px;
+        width: var(--desktop-menu-width);
+        padding: var(--desktop-menu-padding-Y) var(--desktop-menu-padding-X);
     }
 }
 
 @keyframes desk-menu-close {
     from {
-        width: 390px;
-        padding: 100px 30px;
+        width: var(--desktop-menu-width);
+        padding: var(--desktop-menu-padding-Y) var(--desktop-menu-padding-X);
     }
 
     to {
         width: 0;
-        padding: 0;
+        padding: var(--desktop-menu-padding-Y) 0;
     }
 }
 

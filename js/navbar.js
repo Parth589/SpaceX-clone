@@ -9,6 +9,7 @@ let menu = document.getElementById("hidden-list");
 const menuHtml = menu.innerHTML;
 menu.innerHTML = "";
 
+const timeout = .7;//! this is used to change the time taken to open the hamburger menu
 
 let isDesktop = (window.innerWidth >= 1150);
 trigger.addEventListener("click", function () {
@@ -17,9 +18,9 @@ trigger.addEventListener("click", function () {
     if (isOpen === false) {
         //open the menu
         if (isDesktop)
-            menu.style.animation = `desk-menu-open 1s 1 forwards`;
+            menu.style.animation = `desk-menu-open  ${timeout}s 1 forwards`;
         else
-            menu.style.animation = `menu-open 1s 1 forwards`;
+            menu.style.animation = `menu-open  ${timeout}s 1 forwards`;
         setTimeout(() => {
             menu.innerHTML = menuHtml;
         }, 300);
@@ -29,11 +30,11 @@ trigger.addEventListener("click", function () {
         //close the menu
         setTimeout(() => {
             menu.innerHTML = "";
-        }, 500);
+        }, 100);
         if (isDesktop)
-            menu.style.animation = `desk-menu-close 1s 1 forwards`;
+            menu.style.animation = `desk-menu-close ${timeout}s 1 forwards`;
         else
-            menu.style.animation = `menu-close 1s 1 forwards`;
+            menu.style.animation = `menu-close ${timeout}s 1 forwards`;
         isOpen = false;
     }
 });

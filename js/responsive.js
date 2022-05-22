@@ -1,7 +1,7 @@
 let width = window.innerWidth;
 if (width >= 1150) {
 }
-if (width <= 600) {
+if (width < 1150) {
     let visibleList = document.getElementById("visible-list");
     let hiddenList = document.getElementById("hidden-list");
     hiddenList.innerHTML = visibleList.innerHTML + hiddenList.innerHTML;
