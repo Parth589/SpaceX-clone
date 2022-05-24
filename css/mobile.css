@@ -27,4 +27,25 @@
     .heading-primary {
         line-height: 1;
     }
+
+    .content {
+        margin-bottom: 0;
+    }
+
+    .sections {
+        flex-direction: column;
+        justify-content: end;
+        gap: 1rem;
+        align-items: unset;
+    }
+
+    .down-arrow {
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .down-arrow>img:nth-child(1) {
+        width: 35px;
+    }
 }
