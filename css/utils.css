@@ -65,5 +65,5 @@ ul {
 }
 
 .animation-up-down {
-    animation: up-down 2s ease-in-out 2;
+    animation: up-down 2s ease-in-out infinite;
 }
