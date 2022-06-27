@@ -182,3 +182,13 @@ nav {
     justify-content: center;
     gap: 10px;
 }
+
+@media screen and (max-height:750px) {
+    .sections {
+        height: 750px;
+    }
+
+    #hidden-list {
+        height: 750px;
+    }
+}
