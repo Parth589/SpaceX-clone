@@ -148,27 +148,27 @@ nav {
 
 /* section1  */
 .section1 {
-    background-image: url("media/section1/background.webp");
+    background-image: url("../media/section1/background.webp");
 }
 
 .section2 {
-    background-image: url("media/section2/background.webp");
+    background-image: url("../media/section2/background.webp");
 }
 
 .section3 {
-    background-image: url("media/section3/background.webp");
+    background-image: url("../media/section3/background.webp");
 }
 
 .section4 {
-    background-image: url("media/section4/background.webp");
+    background-image: url("../media/section4/background.webp");
 }
 
 .section5 {
-    background-image: url("media/section5/background.webp");
+    background-image: url("../media/section5/background.webp");
 }
 
 .section6 {
-    background-image: url("media/section6/background.webp");
+    background-image: url("../media/section6/background.webp");
 }
 
 .footer-link {
