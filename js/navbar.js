@@ -1,4 +1,3 @@
-console.log('this is navbar.js');
 /**
  * i am using width to open or close the menu.
  * i dont find display none method useful for this case as there is some animations also. 
