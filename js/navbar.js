@@ -18,7 +18,7 @@ trigger.addEventListener("click", function () {
         //open the menu
         // *change menu size-animation and HTML according to the current viewport width
 
-        triggerImage.src = "/media/close_menu.svg";
+        triggerImage.src = "media/close_menu.svg";
         if (isDesktop) {
             menu.style.animation = `desk-menu-open  ${timeout}s 1 forwards`;
             setTimeout(() => {
@@ -36,7 +36,7 @@ trigger.addEventListener("click", function () {
     }
     else {
         //close the menu
-        triggerImage.src = "/media/list.svg";
+        triggerImage.src = "media/list.svg";
         setTimeout(() => {
             menu.innerHTML = "";
         }, 100);
